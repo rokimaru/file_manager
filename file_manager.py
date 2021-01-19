@@ -26,4 +26,4 @@ with open("./files/books.csv", "r") as f:
     print(lib)
 
 with open("./files/result.json", "w") as f:
-    f.write(dumps(lib))
+    f.write(dumps(lib, indent=4))
